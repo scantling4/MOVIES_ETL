@@ -16,6 +16,7 @@ The TV shows were filtered out, the redundant data was consolidated, and the res
 The rudundant data was consolidated, duplicates were removed, and the rest of the data was formatted and grouped. After these processes, the Kaggle and Rating data were merged with the Wikipedia movies DataFrame. 
 
 ### Load the data to a PostgreSQL Movie Database 
+![ETL_process](/ETL_process.png)
 
 ## Summary 
 An ETL function was created that collects and cleans movie data from various sources. It transforms and and merges the data. It then loads this data into two updatable PostgreSQL dataset tables. These tables achieve the goal of usage by hackathon participants for analysis. 
